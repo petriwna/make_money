@@ -1,0 +1,32 @@
+.education-section {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 24px;
+    align-items: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      padding: 0 70px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    color: var(--color-brand);
+  }
+
+  &__content {
+    padding: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 0 0 0 70px;;
+    }
+  }
+
+  &__img {
+    width: 50%;
+    object-fit: contain;
+  }
+}

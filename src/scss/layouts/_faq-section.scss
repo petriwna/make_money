@@ -1,0 +1,11 @@
+.faq-section {
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+}

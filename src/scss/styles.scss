@@ -1,0 +1,28 @@
+@import 'utils/fonts';
+@import 'utils/texts';
+@import 'utils/variable';
+@import 'utils/utils';
+
+@import './base';
+
+@import 'components/buttons';
+@import 'components/career-card';
+@import 'components/links';
+@import 'components/logo';
+@import 'components/policy';
+@import 'components/input';
+@import 'components/form';
+@import 'components/income-card';
+@import 'components/question-card';
+@import 'components/splide';
+
+@import 'layouts/career-section';
+@import 'layouts/container';
+@import 'layouts/education-section';
+@import 'layouts/faq-section';
+@import 'layouts/footer';
+@import 'layouts/header';
+@import 'layouts/hero-section';
+@import 'layouts/income-section';
+@import 'layouts/mobile-menu';
+@import 'layouts/section';

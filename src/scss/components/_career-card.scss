@@ -1,0 +1,58 @@
+.career-card {
+  background-color: var(--color-brand-light);
+  padding: 24px;
+  height: 100%;
+
+  @media screen and (min-width: $bp-desktop){
+    padding: 34px;
+  }
+
+  &--top-left {
+    border-radius: 30px;
+
+    @media screen and (min-width: $bp-desktop) {
+      border-radius: 50px 0 0 0;
+    }
+  }
+
+  &--top-right{
+    border-radius: 30px;
+    margin-top: 0;
+
+    @media screen and (min-width: $bp-desktop) {
+      border-radius: 0 50px 0 0;
+      margin-top: 48px;
+    }
+  }
+
+  &--bottom-left {
+    border-radius: 30px;
+
+    @media screen and (min-width: $bp-desktop) {
+      border-radius: 0 0 0 50px;
+    }
+  }
+
+  &--bottom-right {
+    border-radius: 30px;
+    margin-bottom: 0;
+
+    @media screen and (min-width: $bp-desktop) {
+      border-radius: 0 0 50px 0;
+      margin-top: 48px;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-primary-light);
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+  }
+}

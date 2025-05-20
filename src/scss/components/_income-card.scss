@@ -1,0 +1,16 @@
+.income-card {
+
+  &__top {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__text {
+    padding: 0 0 0 51px;
+  }
+}
